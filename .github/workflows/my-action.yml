@@ -1,0 +1,15 @@
+
+name: GitHub Actions Task
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3002530@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
